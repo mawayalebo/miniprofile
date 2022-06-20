@@ -1,8 +1,8 @@
 function Summary() {
     return ( 
-        <section>
-            <div>
-                <h1>Summary</h1>
+        <section className="flex flex-col justify-center p-5">
+            <div className="mb-2">
+                <h1 className="font-semibold">Summary</h1>
             </div>
             <div>
                 <p>

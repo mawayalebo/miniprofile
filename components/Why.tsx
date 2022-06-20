@@ -1,9 +1,9 @@
 function Why() {
     return ( 
-        <section>
+        <section className="flex flex-col justify-center p-5">
             {/* why want to join a company? */}
-            <div>
-                <h1></h1>
+            <div className="mb-2">
+                <h1 className="font-semibold">Why Sovtech Graduate Programme</h1>
             </div>
             <div>
                 I have been longing to join a company that can help me to grow my skills and knowledge.
