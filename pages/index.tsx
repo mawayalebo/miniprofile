@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Carousel } from 'react-responsive-carousel'
 import Summary from '../components/Summary'
+import Why from '../components/Why'
 const Home: NextPage = () => {
   const Skills  = dynamic(() => import('../components/Skills'), { ssr: false })
 
@@ -17,7 +18,9 @@ const Home: NextPage = () => {
       <main className="">
         <Carousel/>
         <Summary/>
+        <Why/>
         <Skills/>
+
         
       </main>
 
