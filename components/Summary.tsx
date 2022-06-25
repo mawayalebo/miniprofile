@@ -6,8 +6,8 @@ function Summary() {
             </div>
             <div>
                 <p>
-                        Good hello, My name is Lebogang Mawaya, I'm a full-stack Javascript Developer building robust  web apps using <a>Next.Js</a>
-                        and <a>Tailwind Css</a>.  
+                        Good hello, My name is Lebogang Mawaya, I'm a full-stack Javascript Developer building robust  web apps using <a href="https://nextjs.org/">Next.Js</a>
+                         and <a href="https://tailwindcss.com/">Tailwind Css</a>.  
                     </p>
                     {/* history */}
                     <p>

@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import dynamic from 'next/dynamic'
 import Head from 'next/head'
 import Image from 'next/image'
-import { Carousel } from 'react-responsive-carousel'
+import Carousel from '../components/Carousel'
 import Summary from '../components/Summary'
 import Why from '../components/Why'
 const Home: NextPage = () => {
@@ -15,11 +15,17 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className="">
-        <Carousel/>
-        <Summary/>
-        <Why/>
-        <Skills/>
+      <main className="grid grid-cols-1 md:grid-cols-2">
+        <div>
+          <Carousel/>
+        </div>
+        <div>
+          <Summary/>
+          <Why/>
+          <Skills/>
+        </div>
+        
+        
 
         
       </main>

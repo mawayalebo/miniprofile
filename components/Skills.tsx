@@ -6,7 +6,7 @@ function Skills() {
               <Head>
                 <script async src="https://cdn1.stackshare.io/javascripts/client-code.js"></script>
             </Head>
-            <div className="flex flex-col justify-center p-5 mb-2">
+            <div className="flex flex-col justify-center mb-2">
                 <h2 className="font-semibold">Black belting skills</h2>
             </div>
             <div className="shadow-md">
