@@ -71,6 +71,7 @@ function Carousel() {
                         return (
                             <div key={index} className="relative w-screen md:w-[50vw] h-screen">
                                 <Image loading='eager' src={image.src} alt={image.alt} layout="fill" objectFit='cover'/>
+                            
                             </div>
                         )
                     })

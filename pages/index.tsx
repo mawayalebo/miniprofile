@@ -16,8 +16,11 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="grid grid-cols-1 md:grid-cols-2">
-        <div>
+        <div className="md:fixed md:z-50 md:top-0">
           <Carousel/>
+        </div>
+        <div>
+
         </div>
         <div>
           <Summary/>
